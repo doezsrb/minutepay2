@@ -1,0 +1,24 @@
+.orangebtn{
+
+	color:#22242c;
+	border: none;
+	border-radius: 10px;
+	height: 50px;
+	width: 250px;
+	text-align: center;
+	padding-right: 10px;
+	background: url(/images/arrow.svg) no-repeat #ff9900;
+	background-position: 95%;
+}
+.graybtn{
+	background: none;
+	color:#b5aaff;
+	border: 2px solid #b5aaff;
+	border-radius: 10px;
+	height: 50px;
+	width: 250px;
+	text-align: center;
+	padding-right: 10px;
+	background: url(/images/help.svg) no-repeat;
+	background-position: 95%;
+}

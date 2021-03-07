@@ -1,0 +1,55 @@
+.container{
+		margin-top: 10px;
+}
+
+.btn{
+	margin: 0 auto;
+	width: 90vw;
+	height: 70px;
+	border:2px solid #b5aaff;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+	position: relative;
+	background: rgba(49, 49, 60,1);
+	
+}
+.btn img{
+	
+margin-left: auto;
+margin-right: 20px;
+
+
+}
+.btn span{
+	color: white;
+	margin-left: 20px;
+	color:#b5aaff;
+	
+}
+.dot{
+	box-shadow: 10px 10px 20px 8px  rgba(181, 170, 255,1);
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-radius: 30px;
+	background: #b5aaff;
+	margin-top: 8px;
+	margin-left: 8px;
+	z-index: 3;
+}
+.top{
+	width: 140px;
+	height: 20px;
+	background: #b5aaff;
+	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin: auto;
+text-align: center;
+}
+.top span{
+	font-size: 13px;
+
+}

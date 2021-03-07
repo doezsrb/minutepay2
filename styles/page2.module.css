@@ -1,0 +1,124 @@
+
+.container{
+	padding-bottom: 20px;
+	width: 100%;
+	background:#22242c;
+overflow: hidden;
+min-height: 100vh;
+
+	
+}
+.containerSlider{
+	
+	width: 310px;
+	
+	margin: 0 auto;
+}
+
+.navbtns{
+	width: 100%;
+	margin-top: 20px;
+	white-space: nowrap;
+
+}
+.navbtns div{
+	
+
+	margin-right: 5px;
+	display: inline-block;
+}
+.rightbutton{
+	outline: none;
+	background: none;
+	color: white;
+	position: absolute;
+	right: 0;
+	border:none;
+	margin-top: -85px;
+	z-index: 4
+}
+.leftbutton{
+	outline: none;
+	background: none;
+	color: white;
+	position: absolute;
+	left: 0;
+	border:none;
+	margin-top: -85px;
+	z-index: 4
+}
+.list_card{
+	margin-top: 35px;
+	text-align: right;
+}
+.list_card img{
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 10px;
+}
+.list_card span{
+	margin-left: -25px;
+}
+.list_card div{
+
+	display: inline-block;
+	padding-top: 12px;
+	color: white;
+}
+.cardbtn{
+	margin-left: -5px;
+	width: 100px;
+	height: 50px;
+	background: #31313c;
+	
+	text-align: center;
+}
+.cardbtn img{
+	margin-top: 2px;
+}
+.selectbtncard{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	opacity: 1;
+}
+.selectbtnlist{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	opacity: 1;
+}
+.notselectbtncard{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	opacity: 0.4;
+}
+.notselectbtnlist{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+	opacity: 0.4;
+}
+.listbtn{
+
+	width: 100px;
+	height: 50px;
+	background: #31313c;
+	
+	text-align: center;
+}
+
+.parentcards{
+text-align: center;
+	width: 100%;
+
+	
+	
+	
+	
+
+	
+}

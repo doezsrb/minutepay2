@@ -1,0 +1,96 @@
+.parent{
+	margin-top: 20px;
+width: 330px;
+	height: 80px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.container{
+	margin: 0 auto;
+	width: 330px;
+	height: 80px;
+	background: rgba(49, 49, 60,0.4);
+	-webkit-backdrop-filter: drop-shadow(-250px -40px 0px rgb(255, 153, 0,0.6)) saturate(130%) blur(10px);
+    backdrop-filter: drop-shadow(-250px -40px 0px rgb(255, 153, 0,0.6)) saturate(130%) blur(10px);
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+justify-content: center;
+  align-items: center;
+}
+
+.redot{
+	margin-top: 0px;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: #ff9900;
+	border-radius: 20px;
+}
+.child{
+
+
+	width: 310px;
+	height: 65px;
+	border-radius: 13px;
+	border:2px solid #ff9900;
+
+}
+.top{
+	position: absolute;
+	width: 130px;
+	height: 25px;
+	background: #ed1c16;
+	margin-top: -85px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.top span{
+	font-size: 13px;
+	color: white;
+	text-align: center;
+}
+
+
+
+.name span{
+	font-weight: bold;
+	color: #ff9900;
+	font-size: 17px;
+
+}
+.name{
+	margin-top: 8px;
+	margin-left: 20px;
+}
+.name2 span{
+	color: white;
+
+
+}
+.image{
+	margin-top: -8px;
+	margin-left: -5px;
+	position: absolute;
+}
+.price{
+	position: absolute;
+		right: 20px;
+		top:10px;
+}
+.price span{
+	font-weight: bold;
+	font-size: 30px;
+	color: #ff9900;
+}
+.valuta{
+	position: absolute;
+		right: 20px;
+		top:43px;
+}
+.valuta span{
+	
+	font-size: 15px;
+	color: #ff9900;
+}

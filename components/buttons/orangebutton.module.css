@@ -1,0 +1,22 @@
+.container{
+		margin-top: 20px;
+}
+.btn{
+	margin: 0 auto;
+
+	width: 90vw;
+	height: 70px;
+	
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	z-index: 6;
+	position: relative;
+	background: #fd9700;
+}
+.btn span{
+	color: white;
+	margin: 0 auto;
+	color:black;
+	
+}
