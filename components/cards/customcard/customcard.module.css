@@ -4,6 +4,7 @@
 		display:inline-block;
 margin-top: 50px;
 	vertical-align: bottom;
+	cursor: none;
 }
 .card{
 	overflow: hidden;
@@ -109,5 +110,17 @@ border-radius: 15px;
 }
 .sastojciText span{
 	font-size: 13px;
+	
+}
+.btn{
+	border:none;
+	background: none;
+	outline: none;
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: none;
 	
 }

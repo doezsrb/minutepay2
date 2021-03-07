@@ -16,6 +16,9 @@
 	margin-top: 20px;
 	margin-left: 20px;
 }
+.back img {
+	cursor: none;
+}
 .noblurchild{
 
 	width: 100%;

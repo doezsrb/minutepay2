@@ -2,6 +2,7 @@ import styles from '../styles/home.module.css'
 import Layout from '../components/layout'
 import OptionsButton from '../components/options/optionsbutton/OptionsButton'
 import OranGrayButton from '../components/buttons/OranGrayButton'
+
 export default function Home() {
   return (
     <Layout>
@@ -36,8 +37,8 @@ export default function Home() {
           <OranGrayButton col="gray">
             Prvi put naručujem, upomoć!
           </OranGrayButton>
-          <OranGrayButton col="orange">
-            Nastavi na Minute Meni
+         <OranGrayButton col="orange">
+          Nastavi na Minute Meni 
           </OranGrayButton>
         </div>
       </div>

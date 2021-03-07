@@ -4,6 +4,7 @@ width: 330px;
 	height: 80px;
 	display: inline-block;
 	vertical-align: bottom;
+	cursor: none;
 }
 .container{
 	margin: 0 auto;

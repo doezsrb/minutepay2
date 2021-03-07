@@ -1,5 +1,6 @@
 import styles from './orangraybutton.module.css'
 import {useState,useEffect} from 'react'
+import Link from 'next/link'
 export default function OranGrayButton({col,children}){
 	const [klasa,setKlasa] = useState();
 	useEffect(()=>{
@@ -10,8 +11,10 @@ export default function OranGrayButton({col,children}){
 		}
 	},[])
 	return(
-		<button className={klasa}>
+		<>
+		<Link href="/page2"><a><button className={klasa}>
 			{children}
-		</button>
+		</button></a></Link>
+		</>
 		)
 }

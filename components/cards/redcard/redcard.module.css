@@ -5,7 +5,7 @@
 		display:inline-block;
 margin-top: 50px;
 	vertical-align: bottom;
-
+cursor: none;
 }
 .card{
 	overflow: hidden;
