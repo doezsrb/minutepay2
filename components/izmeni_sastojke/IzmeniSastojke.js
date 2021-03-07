@@ -4,9 +4,12 @@ import AddItem from './additem/AddItem'
 import {useState} from 'react'
 export default function IzmeniSastojke(props){
 	const [popup,setPopup] = useState(false)
-	const [selected,setSelected] = useState([])
+	const [selected,setSelected] = useState([{id:5,name:"Posla Lepinja",img:"/images/bread1.png"},
+		{id:3,name:"Kačkavalj",img:"/images/kack1.png"}])
 	const [notselected,setNotSelected] = useState([{id:1,name:"Susam",img:"/images/sesame1.png"},
-		{id:2,name:"IceBerg Salata",img:"/images/lettuce1.png"}])
+		{id:2,name:"IceBerg Salata",img:"/images/lettuce1.png"},
+		{id:4,name:"Paradajz",img:"/images/tomato1.png"}
+		])
 	function openPopup(){
 		setPopup(true)
 	}
