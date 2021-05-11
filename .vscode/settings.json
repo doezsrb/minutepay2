@@ -1,4 +1,3 @@
 {
-    "git.autofetch": true,
-    "git.autofetchPeriod": 5
+    "git.autofetch": "all"
 }
