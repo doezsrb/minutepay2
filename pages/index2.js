@@ -1,3 +1,3 @@
-export default function Index2(){
-    
-}
+
+
+var d = 23;
